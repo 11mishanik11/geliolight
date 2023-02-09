@@ -74,7 +74,7 @@ body {
 
     color: #fff;
     background-color: #3e80b7;
-    background-image: url('../img/fon__blue.jpg');
+    background-image: url('../img/bg-blue.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -473,7 +473,7 @@ body {
 /* saving */
 .saving {
     position: relative;
-    padding: 100px 0 120px;
+    padding: 100px 0 160px;
     background-image: url('../img/bg-white.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -493,7 +493,21 @@ body {
 }
 
 .saving__col--two {
+    position: relative;
     text-align: center;
+}
+
+.saving__col--two::after {
+    content: "";
+    width: 670px;
+    height: 660px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    background-image: url("../img/saving.png");
+    background-size: 670px 660px;
 }
 
 .saving__col--three {
@@ -519,7 +533,7 @@ body {
 
 .saving__col--two .saving__item {
     max-width: none;
-    transform: translateY(300px);
+    transform: translateY(350px);
 }
 
 .saving__col--three .saving__item:nth-child(1),
@@ -547,6 +561,7 @@ body {
 
 /* Condition */
 .condition {
+    position: relative;
     padding: 120px 0;
     background-color: #3e80b7;
     background-image: url('../img/bg-white.jpg');
@@ -619,7 +634,7 @@ body {
 /* Footer */
 .footer {
     padding: 30px 0;
-    background-image: url('../img/footer.jpg');
+    background-image: url('../img/bg-blue.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
