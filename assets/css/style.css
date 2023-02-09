@@ -529,6 +529,10 @@ body {
     color: #000;
 }
 
+.saving__item--mobile {
+    display: none;
+}
+
 .saving__item:last-child {
     margin-bottom: 0;
 }
@@ -552,6 +556,10 @@ body {
     text-align: center;
     font-size: 51px;
     font-weight: 500;
+}
+
+.saving__title--mobile {
+    display: none;
 }
 
 .saving__text {
@@ -653,6 +661,7 @@ body {
 .footer__inner {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     color: #fff;
 }
 
@@ -809,12 +818,22 @@ body {
 
 
     /* condition */
+    .condition {
+        padding: 70px 0;
+    }
+
     .condition__title {
         font-size: 65px;
     }
 }
 
 @media (max-width: 1110px) {
+    .logo {
+        bottom: 20px;
+        right: 20px;
+    }
+
+
     /* instraction */
     .instraction {
         padding: 140px 0 70px;
@@ -871,4 +890,84 @@ body {
 
 
     /* Safety */
+    .safety {
+        padding: 70px 0;
+    }
+
+    .safety__items {
+        padding-right: 0;
+    }
+
+    .safety__img {
+        display: none;
+    }
+
+
+    /* Control */
+    .control__inner {
+        flex-wrap: wrap;
+        padding-left: 50px;
+    }
+
+    .control__title {
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+
+    .control__col {
+        text-align: left;
+    }
+
+    .control__col::before {
+        display: none;
+    }
+
+
+    /* Saving */
+    .saving__title--mobile {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .saving__row {
+        justify-content: space-between;
+    }
+
+    .saving__col {
+        flex: 0 1 50%;
+    }
+
+    .saving__col--one {
+        align-items: start;
+        text-align: left;
+    }
+
+    .saving__col--two {
+        display: none;
+    }
+
+    .saving__col--one .saving__item:nth-child(1),
+    .saving__col--one .saving__item:nth-child(3),
+    .saving__col--three .saving__item:nth-child(1),
+    .saving__col--three .saving__item:nth-child(3) {
+        transform: none;
+    }
+
+    .saving__item--mobile {
+        display: block;
+    }
+
+
+    /* condition */
+    .condition__inner {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: stretch;
+        padding-left: 40px;
+    }
+
+    .condition__items {
+        width: 100%;
+        max-width: none;
+    }
 }
