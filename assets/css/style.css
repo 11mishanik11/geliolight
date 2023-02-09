@@ -1081,6 +1081,10 @@ body.hidden {
 }
 
 @media (max-width: 768px) {
+    .logo {
+        display: none;
+    }
+
     .section-title {
         font-size: 35px;
     }
