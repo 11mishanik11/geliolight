@@ -1102,7 +1102,8 @@ body.hidden {
 
     /* instraction */
     .instraction {
-        padding-bottom: 30px;
+        padding: 100px 30px;
+        
     }
 
     .instraction__top {
