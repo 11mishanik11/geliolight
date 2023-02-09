@@ -62,6 +62,11 @@ body {
     bottom: 70px;
 }
 
+.section-title {
+    font-weight: 500;
+    font-size: 75px;
+}
+
 
 /* header */
 .header {
@@ -121,7 +126,6 @@ body {
 }
 
 .instraction__title {
-    font-weight: 500;
     max-width: 1080px;
     font-size: 45px;
 }
@@ -262,8 +266,6 @@ body {
 
 .sanpin__title {
     margin-bottom: 100px;
-    font-size: 75px;
-    font-weight: 500;
 }
 
 .sanpin__items {
@@ -323,8 +325,6 @@ body {
 
 .safety__title {
     margin-bottom: 30px;
-    font-size: 75px;
-    font-weight: 500;
 }
 
 .safety__inner {
@@ -401,8 +401,6 @@ body {
 
 .control__title {
     margin-right: 200px;
-    font-size: 75px;
-    font-weight: 500;
 }
 
 .control__col {
@@ -556,7 +554,6 @@ body {
 .saving__title {
     text-align: center;
     font-size: 51px;
-    font-weight: 500;
 }
 
 .saving__title--mobile {
@@ -587,8 +584,6 @@ body {
 
 .condition__title {
     margin-bottom: 50px;
-    font-size: 75px;
-    font-weight: 500;
 }
 
 .condition__inner {
@@ -701,6 +696,11 @@ body {
 
 
 @media (max-width: 1440px) {
+    .section-title {
+        font-size: 65px;
+    }
+
+
     /* Header */
     .header__btn {
         padding: 20px 20px;
@@ -733,9 +733,6 @@ body {
     }
 
     /* Sanpin */
-    .sanpin__title {
-        font-size: 65px;
-    }
 
     .sanpin__items {
         margin: -35px -35px -35px 0;
@@ -753,7 +750,6 @@ body {
     /* safety */
     .safety__title {
         margin-bottom: 50px;
-        font-size: 65px;
     }
 
     .safety__items {
@@ -771,10 +767,6 @@ body {
 
     
     /* Control */
-    .control__title {
-        font-size: 65px;
-    }
-
     .control__col {
         padding-left: 60px;
     }
@@ -821,10 +813,6 @@ body {
     /* condition */
     .condition {
         padding: 70px 0;
-    }
-
-    .condition__title {
-        font-size: 65px;
     }
 }
 
@@ -994,6 +982,11 @@ body {
 }
 
 @media (max-width: 768px) {
+    .section-title {
+        font-size: 35px;
+    }
+
+
     /* Header */
     .header {
         padding: 20px 0;
@@ -1027,10 +1020,6 @@ body {
         padding: 30px 0;
     }
 
-    .advantages__title {
-        font-size: 35px;
-    }
-
     .advantages__item {
         padding: 25px 40px;
         margin-bottom: 20px;
@@ -1043,7 +1032,6 @@ body {
     }
 
     .sanpin__title {
-        font-size: 35px;
         margin-bottom: 60px;
     }
 
@@ -1055,10 +1043,6 @@ body {
     /* safety */
     .safety {
         padding: 30px 0;
-    }
-
-    .safety__title {
-        font-size: 35px;
     }
 
     .safety__items {
@@ -1082,10 +1066,6 @@ body {
         padding: 30px 0 55px;
     }
 
-    .control__title {
-        font-size: 35px;
-    }
-
     .control__image {
         width: 40px;
         height: 40px;
@@ -1105,10 +1085,6 @@ body {
     /* saving */
     .saving {
         padding: 30px 0;
-    }
-
-    .saving__title {
-        font-size: 35px;
     }
 
     .saving__row {
@@ -1145,7 +1121,6 @@ body {
     }
 
     .condition__title {
-        font-size: 35px;
         margin-bottom: 30px;
     }
 
@@ -1156,8 +1131,8 @@ body {
 }
 
 @media (max-width: 575px) {
-    .instraction__title {
-        font-size: 23px;
+    .section-title {
+        font-size: 26px;
     }
     
     .instraction__inner {
@@ -1179,10 +1154,6 @@ body {
 
 
     /* advantages */
-    .advantages__title {
-        font-size: 23px;
-    }
-
     .advantages__items {
         padding-left: 10px;
     }
@@ -1200,10 +1171,6 @@ body {
 
 
     /* Sanpin */
-    .sanpin__title {
-        font-size: 23px;
-    }
-
     .sanpin__items {
         padding-left: 15px;
     }
@@ -1224,10 +1191,6 @@ body {
 
 
     /* safety */
-    .safety__title {
-        font-size: 23px;
-    }
-
     .safety__text {
         font-size: 18px;
     }
@@ -1238,9 +1201,6 @@ body {
 
 
     /* control */
-    .control__title {
-        font-size: 23px;
-    }
     .control__inner {
         padding-left: 0;
     }
@@ -1257,7 +1217,6 @@ body {
 
     /* saving */
     .saving__title {
-        font-size: 23px;
         margin-bottom: 10px;
     }
 
@@ -1265,10 +1224,6 @@ body {
     /* condition */
     .condition__inner {
         padding-left: 0;
-    }
-
-    .condition__title {
-        font-size: 23px;
     }
 
     .condition__items {
