@@ -46,6 +46,10 @@ body {
     background-color: #fff;
 }
 
+body.hidden {
+    overflow: hidden;
+}
+
 .wrapper {
     overflow: hidden;
 }
@@ -893,6 +897,7 @@ body {
     /* menu */
     .menu {
         width: 100%;
+        transform: translateX(-100%);
         flex-direction: column-reverse;
         padding: 50px 15px;
         position: absolute;
@@ -901,6 +906,11 @@ body {
 
         background-color: #21547e;
         box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+        transition: transform linear .2s;
+    }
+
+    .menu.active {
+        transform: none;
     }
 
     .menu__list {
